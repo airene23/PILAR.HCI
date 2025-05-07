@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #DEBA50;
+}
+
+.navbar {
+    background-color: #333;
+    height:60px;
+
+}
+
+.navbar a {
+    color: rosybrown;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.main-section {
+    background-image: url('Images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-title i {
+    margin-right: 10px;
+}
+
+.bg-grey {
+    background-color: #f2f2f2;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background: linear-gradient(45deg, brown, orangered, brown);
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
+html{
+    scrollbar-color: brown white; 
+}
+.about-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.about{
+    background-color: brown;
+}
+.about p{
+    text-align: justify;
+}
+.bg-beige{
+    background-color: beige;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 43px;
+}
+
+.menu-item .menu-caption {
+    padding: 10px;
+    background-color: transparent;
+    color: firebrick;
+    border-radius: 10px;
+    text-align: center;
+}
+.feedback{
+    padding: 20px;
+    width: 900px;    
+    background-color: sandybrown;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 390px;
+    position: static;
+   
+}
+.feedback h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+.fields {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: 600;
+    color: white;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.msg-btn{
+    background: linear-gradient(45deg,brown, orangered, brown);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 345px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    position: sticky;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+.msg-btn:hover {
+    transform: scale(1.070);
+}
+.thanks h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+}
+.thanks h3{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .menu-item {
+        flex: 0 0 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        flex: 0 0 100%;
+    }
+}
+.order h2{
+    text-align: center;
+    font-weight: bold;
+}
+.order-btn{
+    text-align: center;
+    background: linear-gradient(45deg,brown, orangered, brown);
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 580px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: sticky;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
